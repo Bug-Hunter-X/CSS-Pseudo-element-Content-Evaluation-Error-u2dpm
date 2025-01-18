@@ -1,0 +1,7 @@
+/* Corrected CSS */
+.element::before {
+  content: attr(data-custom-content);
+}
+
+/* Ensure data-custom-content attribute is correctly set in the HTML */
+<div class="element" data-custom-content="Correct Content"></div>
