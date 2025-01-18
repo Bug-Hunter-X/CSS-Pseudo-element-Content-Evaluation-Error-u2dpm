@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon CSS bug related to the evaluation of variables or expressions within the `content` property of pseudo-elements (::before or ::after). The bug arises when the expression evaluates to an unexpected value, leading to incorrect styling.  The solution provides a corrected version of the code.
